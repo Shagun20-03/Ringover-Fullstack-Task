@@ -63,14 +63,6 @@
 
       img {
         width: 80%;
-        transform: translateY(-50px);
-        animation: bounce 2s linear infinite alternate-reverse;
-
-        @keyframes bounce {
-          to {
-            transform: translateY(50px);
-          }
-        }
       }
     }
   }
