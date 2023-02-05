@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="box">
-        <h1>Reach us at</h1>
+        <h1>REACH US AT</h1>
         <div className="link">
           <a
             href="mailto:support@kicksup.com"

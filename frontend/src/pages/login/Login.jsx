@@ -69,7 +69,7 @@ const Login = () => {
               onClick={handleDemo}
               disabled={isFetching}
             >
-              Demo
+              Continue without Login
             </button>
           </div>
           <button

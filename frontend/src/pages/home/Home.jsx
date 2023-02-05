@@ -8,9 +8,10 @@ const Home = () => {
         <div className="left">
           <div className="wrapper">
             <div className="about">
-              <h1>Create Your Own Styles.</h1>
+              <h1>Shoe Store</h1>
+              <h2>Shoe Store Shopify Theme</h2>
               <p>
-                KicksUp has an interactive online console that lets you to
+                KicksUp is an interactive online console that lets you
                 create beautiful and personalized shoe designs.
               </p>
             </div>
@@ -25,7 +26,7 @@ const Home = () => {
           </div>
         </div>
         <div className="right">
-          <img src="/assets/shoe.png" alt="shoe" />
+          <img src="/assets/shoe.jpg" alt="shoe" />
         </div>
       </div>
     </div>
