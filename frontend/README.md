@@ -1,5 +1,4 @@
-#Ringover-Fullstack-Task
-
+# Ringover-Fullstack-Task
 This project is bootstrapped with <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App</a>
 Commands required to run this application
 In the project directory run:
