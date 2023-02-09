@@ -6,8 +6,13 @@ export const TEAM = [
     socials: [
       {
         link: "https://google.com",
-        icon: "/assets/socials/twitter.png",
-        name: "twitter",
+        icon: "/assets/socials/linkedin.png",
+        name: "Linkedin",
+      },
+      {
+        link: "https://google.com",
+        icon: "/assets/socials/medium.png",
+        name: "Medium",
       },
       {
         link: "https://google.com",
@@ -23,18 +28,13 @@ export const TEAM = [
     socials: [
       {
         link: "https://google.com",
-        icon: "/assets/socials/instagram.png",
-        name: "instagram",
+        icon: "/assets/socials/linkedin.png",
+        name: "Linkedin",
       },
       {
         link: "https://google.com",
-        icon: "/assets/socials/facebook.png",
-        name: "facebook",
-      },
-      {
-        link: "https://google.com",
-        icon: "/assets/socials/twitter.png",
-        name: "twitter",
+        icon: "/assets/socials/medium.png",
+        name: "Medium",
       },
     ],
   },
@@ -45,8 +45,8 @@ export const TEAM = [
     socials: [
       {
         link: "https://google.com",
-        icon: "/assets/socials/facebook.png",
-        name: "facebook",
+        icon: "/assets/socials/medium.png",
+        name: "medium",
       },
     ],
   },
@@ -57,13 +57,8 @@ export const TEAM = [
     socials: [
       {
         link: "https://google.com",
-        icon: "/assets/socials/instagram.png",
-        name: "instagram",
-      },
-      {
-        link: "https://google.com",
-        icon: "/assets/socials/facebook.png",
-        name: "facebook",
+        icon: "/assets/socials/medium.png",
+        name: "medium",
       },
     ],
   },
@@ -74,8 +69,8 @@ export const TEAM = [
     socials: [
       {
         link: "https://google.com",
-        icon: "/assets/socials/twitter.png",
-        name: "twitter",
+        icon: "/assets/socials/linkedin.png",
+        name: "linkedin",
       },
       {
         link: "https://google.com",

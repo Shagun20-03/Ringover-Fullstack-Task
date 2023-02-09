@@ -130,7 +130,7 @@ const Filters = () => {
           </div>
         </div>
         <div className="designTemplates">
-          <h2>Design Templates</h2>
+<h2>Design Templates</h2>
           <div className="field">
             <input
               type="checkbox"
