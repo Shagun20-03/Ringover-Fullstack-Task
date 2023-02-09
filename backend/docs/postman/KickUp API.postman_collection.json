@@ -5,9 +5,11 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "18648606"
 	},
-	"item": [{
+	"item": [
+		{
 			"name": "Auth",
-			"item": [{
+			"item": [
+				{
 					"name": "login user",
 					"request": {
 						"method": "POST",
@@ -59,7 +61,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"User\",\r\n    \"email\": \"demo@gmail.com\",\r\n    \"password\": \"secret\"\r\n}",
+							"raw": "{\r\n    \"username\": \"Demo User\",\r\n    \"email\": \"demo@gmail.com\",\r\n    \"password\": \"secret\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -83,7 +85,8 @@
 		},
 		{
 			"name": "Users",
-			"item": [{
+			"item": [
+				{
 					"name": "get all users",
 					"request": {
 						"method": "GET",
@@ -146,7 +149,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"Shagun Goyal\"\r\n}",
+							"raw": "{\r\n    \"username\": \"Pranav Musk\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -188,7 +191,8 @@
 		},
 		{
 			"name": "Products",
-			"item": [{
+			"item": [
+				{
 					"name": "create product",
 					"request": {
 						"method": "POST",
@@ -284,7 +288,8 @@
 							"path": [
 								"products"
 							],
-							"query": [{
+							"query": [
+								{
 									"key": "price",
 									"value": "[\"1001-3000'\", \"4000-5000\"]",
 									"disabled": true
@@ -407,63 +412,67 @@
 		},
 		{
 			"name": "Reviews",
-			"item": [{
-				"name": "create review",
-				"request": {
-					"method": "POST",
-					"header": [],
-					"body": {
-						"mode": "raw",
-						"raw": "{\r\n    \"rating\":4\r\n}",
-						"options": {
-							"raw": {
-								"language": "json"
+			"item": [
+				{
+					"name": "create review",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"rating\":4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
 							}
+						},
+						"url": {
+							"raw": "{{URL}}/reviews/b62c2be4-f565-4ffb-bb36-997fa462c1ac",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"reviews",
+								"b62c2be4-f565-4ffb-bb36-997fa462c1ac"
+							]
 						}
 					},
-					"url": {
-						"raw": "{{URL}}/reviews/b62c2be4-f565-4ffb-bb36-997fa462c1ac",
-						"host": [
-							"{{URL}}"
-						],
-						"path": [
-							"reviews",
-							"b62c2be4-f565-4ffb-bb36-997fa462c1ac"
-						]
-					}
-				},
-				"response": []
-			}]
+					"response": []
+				}
+			]
 		},
 		{
 			"name": "Orders",
-			"item": [{
-				"name": "create order",
-				"request": {
-					"method": "POST",
-					"header": [],
-					"body": {
-						"mode": "raw",
-						"raw": "",
-						"options": {
-							"raw": {
-								"language": "json"
+			"item": [
+				{
+					"name": "create order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
 							}
+						},
+						"url": {
+							"raw": "{{URL}}/orders/checkout",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"orders",
+								"checkout"
+							]
 						}
 					},
-					"url": {
-						"raw": "{{URL}}/orders/checkout",
-						"host": [
-							"{{URL}}"
-						],
-						"path": [
-							"orders",
-							"checkout"
-						]
-					}
-				},
-				"response": []
-			}]
+					"response": []
+				}
+			]
 		}
 	]
 }

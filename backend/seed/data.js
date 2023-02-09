@@ -5,8 +5,8 @@ ITEMS = [
     offer: "Get an exclusive 20% off shopping with HDFC bank",
     images: [
       "https://res.cloudinary.com/dl26pbek4/image/upload/v1662030429/shoes/red/shoe1/1_rsmjpr.jpg",
-      "https://res.cloudinary.com/dl26pbek4/image/upload/v1662030430/shoes/red/shoe1/2_ko9gvh.jpg",
-      "https://res.cloudinary.com/dl26pbek4/image/upload/v1662030429/shoes/red/shoe1/3_jfxz5e.jpg",
+      "https://res.cloudinary.com/dl26pbek4/image/upload/v1662030429/shoes/red/shoe1/1_rsmjpr.jpg",
+      "https://res.cloudinary.com/dl26pbek4/image/upload/v1662030429/shoes/red/shoe1/1_rsmjpr.jpg",
     ],
     design: {
       front: 1,

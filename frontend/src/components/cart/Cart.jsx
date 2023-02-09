@@ -100,9 +100,9 @@ const Cart = forwardRef((props, ref) => {
               <span>Select date</span>
             </div>
           </div>
-          <button disabled={!cartItems.length} onClick={handleOrder}>
-            Order Now
-          </button>
+          <button disabled={!cartItems.length} onClick={handleOrder}> 
+            Order Now 
+          </button> 
         </div>
       </div>
     </div>
